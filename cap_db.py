@@ -76,7 +76,7 @@ for f in dict_data['features'] :
              cur.execute('''INSERT OR REPLACE INTO Joint (number, project_id, retro_id)
              VALUES (?, ?, ?)''', (number, project_id, retro_id))
          else : continue
-
+#I love my coffee
 
 conn.commit()
 cur.close()
